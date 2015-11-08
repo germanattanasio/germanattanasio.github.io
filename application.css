@@ -524,7 +524,7 @@ body {
     padding: 40px 20px;
   }
 }
-.me {
+.just-me {
   margin-bottom: 20px;
 }
 
@@ -557,9 +557,10 @@ a:hover, a:focus {
   color: #b8d8d5;
 }
 
-.me {
-  width: 320px;
-  height: 242px;
+.just-me {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
 }
 
 .elsewhere {
