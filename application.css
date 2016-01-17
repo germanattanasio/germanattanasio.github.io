@@ -544,17 +544,17 @@ a, b {
 }
 
 a, a:visited {
-  color: #23ccbe;
+  color: #00A0be;
   text-decoration: none;
-  border-bottom: 1px solid #ededed;
+  border-bottom: 1px solid #00A0be;
 }
 a:hover, a:focus {
-  color: #01aa9c;
+  color: #000Dbe;
   border-color: #bbb;
 }
 
 .at {
-  color: #b8d8d5;
+  color: #00A0be;
 }
 
 .just-me {
