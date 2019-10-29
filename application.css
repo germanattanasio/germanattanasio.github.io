@@ -190,7 +190,7 @@ mark {
  */
 p,
 pre {
-  margin: 1em 0;
+  margin: 0.3em 0;
 }
 
 /**
@@ -497,7 +497,8 @@ table {
   border-spacing: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -524,6 +525,7 @@ body {
     padding: 40px 20px;
   }
 }
+
 .just-me {
   margin-bottom: 20px;
 }
@@ -539,16 +541,20 @@ body {
   font: 300 22px/1.5 "Source Sans Pro", sans-serif;
 }
 
-a, b {
+a,
+b {
   font-weight: 400;
 }
 
-a, a:visited {
+a,
+a:visited {
   color: #00A0be;
   text-decoration: none;
   border-bottom: 1px solid #00A0be;
 }
-a:hover, a:focus {
+
+a:hover,
+a:focus {
   color: #000Dbe;
   border-color: #bbb;
 }
@@ -560,7 +566,7 @@ a:hover, a:focus {
 .just-me {
   max-width: 100%;
   height: auto;
-  width: auto\9; /* ie8 */
+  width: 300px;
 }
 
 .elsewhere {
@@ -568,6 +574,7 @@ a:hover, a:focus {
   list-style-type: none;
   padding: 0;
 }
+
 .elsewhere__item {
   display: inline;
   margin: 0 10px;
